@@ -81,12 +81,14 @@
     margin-left: 0px;
 }
 .guihua .guihua-two .content h4{
-    margin-left: 350px;
+    height: 30px;
+    width: 100%;
     margin-top: 40px;
     margin-bottom: 15px;
     font-family: Microsoft Yahei;
     color: #666666;
     font-size: 16px;
+    text-align: right;
 }
 .guihua .guihua-two .content p {
     font-family: Microsoft Yahei;
