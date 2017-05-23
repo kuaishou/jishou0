@@ -1,0 +1,355 @@
+@charset "UTF-8";
+
+body{
+    overflow:scroll;
+}
+.lunbo{
+   height: 624px;
+   width:1900px;
+  overflow:hidden;
+}
+.lunbo ul{
+    list-style: none;
+  width:1900px;
+}
+.lunbo ul li{
+    list-style: none;
+  height:624px;
+  width:1900px;
+  float:left;
+}
+.lunbo ul li img{
+    height:624px;
+    width:1900px;
+
+}
+/*
+.all ol{ position:absolute; right:10px; bottom:10px; line-height:20px; text-align:center;}
+.all ol li{ float:left; width:20px; height:20px; background:#fff; border:1px solid #ccc; margin-left:10px; cursor:pointer;}
+.all ol li.current{ background:yellow;} */
+
+
+#jsxw {
+
+}
+#jsxw> .container{
+  border-bottom: 1px dashed #aecee1;
+    padding: 20px 0;
+    padding-left:100px ;
+}
+
+#jsxw> .container > .box {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+#jsxw > .container > .box > .box-news{
+            float: left;
+            height: 30px;
+            width: 570px;
+            position: relative;
+            overflow: hidden;
+}
+#jsxw > .container > .box > .box-news >  .ull{
+            height: 120px;
+            width: 570px;
+            position: absolute;
+            top: 0;
+            left: 0;
+}
+#jsxw > .container > .box >.box-news> .ull> li{
+            list-style: none;
+            height: 30px;
+            line-height: 30px;
+            width: 570px;
+            margin-left: 30px;
+}
+
+#jsxw > .container > .box > span{
+   margin-left: 40px;
+}
+#jsxw > .container > .box > a {
+  display:inline-block;
+  height: 20px;
+  width: 70px;
+  background-color: #f29907;
+  color: #ffffff;
+  text-align: center;
+  line-height: 20px;
+  margin-left: 60px;
+  border-radius: 10px;
+  border-bottom: 1px dashed #e92322;
+
+}
+#jsxw> .container > .box > a:hover {
+  text-decoration: none;
+}
+
+
+
+/* 特色 */
+
+
+#tese {
+    height: 700px;
+    width: 1900px;
+    border: 0;
+}
+
+#tese > .container >div{
+  margin-top: 70px;
+  float: left;
+}
+
+
+
+/*行程介绍*/
+
+.xingceng{
+    height: 770px;
+    width: 1900px;
+    background-color: #5bb4ee;
+
+}
+.xingceng .container .xingceng_new{
+    margin-bottom: 70px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 100px;
+
+}
+.xingceng .container .xingceng_new h2{
+    letter-spacing: 20px;
+}
+.xingceng .container .xingceng_new p{
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+.xingceng .container .xingceng_img{
+    position: relative;
+}
+.xingceng .container .xingceng_img .row div{
+    float: left;
+
+}
+.xingceng .container .xingceng_img .row .lef {
+    margin-left: 10px;
+
+}
+
+.xingceng .container .xingceng_img span{
+
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    margin-top: 170px;
+    color: #fff;
+    font: 500 50px/62px "宋体";
+    text-align: center;
+    cursor: pointer;
+}
+.xingceng .container .xingceng_img .left{
+    left: -35px;
+}
+.xingceng .container .xingceng_img .right{
+    right: -16px;
+}
+
+/* 风景透视窗 */
+.toushi-eyes{
+    width: 1900px;
+    height: 400px;
+    margin: 0px auto;
+    position: relative;
+}
+
+/* 特色景点 */
+.teshe{
+    height: 690px;
+    width: 1900px;
+}
+
+.teshe >.container > .teshe_new{
+    margin-top: 118px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+.teshe >.container > .teshe_new h2{
+    color: #6a6a6a;
+    letter-spacing: 20px;
+}
+.teshe >.container > .teshe_new > a{
+    margin-top: 20px;
+    display: inline-block;
+    height: 26px;
+    width: 140px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    background-color: #f29907;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 13px;
+}
+.teshe .container .teshe_img .left{
+    height: 361px;
+    width: 380px;
+    float: left;
+    margin-left: 20px;
+}
+.teshe .container .teshe_img .right a{
+    display: block;
+    height: 170px;
+    width: 170px;
+    float: left;
+    margin-left: 18px;
+
+}
+
+.teshe .container .teshe_img .right .top{
+    margin-top: 18px;
+}
+
+
+/* 特色美食 */
+.meishi{
+    width: 1900px;
+    height: 1050px;
+}
+.meishi >.meishi_new{
+    text-align: center;
+    height: 150px;
+    background-color: #30bbbe;
+    padding-top: 40px;
+}
+
+.meishi > .meishi_new h2{
+    height: 40px;
+    line-height: 40px;
+    color: #6a6a6a;
+    letter-spacing: 20px;
+}
+.meishi >.meishi_new > a{
+    margin-top: 20px;
+    display: inline-block;
+    height: 26px;
+    width: 140px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    background-color: #f29907;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 13px;
+}
+.meishi .container {
+    padding-left: 30px;
+}
+/* 山 */
+.shan img{
+    height: 660px;
+    width: 1900px;
+}
+
+/* 旅游评价 */
+
+.pingjia{
+    width: 1900px;
+    height: 900px;
+}
+
+.pingjia .container .pingjia_new{
+    margin-top: 120px;
+    text-align: center;
+}
+.pingjia .container .pingjia_new h2{
+    color: #6a6a6a;
+    letter-spacing: 20px;
+}
+
+.pingjia .container  .pingjia_words{
+    margin-top: 46px;
+}
+.pingjia .container  .pingjia_words ul li{
+    list-style: none;
+    height: 150px;
+    width: 100%;
+    margin-top: 16px;
+}
+.pingjia .container  .pingjia_words ul li .wenzhi{
+    float: left;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-family: Microsoft Yahei;
+
+}
+.pingjia .container  .pingjia_words ul p{
+    width: 710px;
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+}
+
+
+.pingjia .container  .pingjia_words ul strong{
+    display: inline-block;
+    width: 280px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom:1px solid black;
+    font-size: 22px;
+    margin-bottom: 16px;
+
+}
+.pingjia .container  .pingjia_words ul img{
+    float: right;
+
+}
+
+
+
+.backimg img{
+    height: 550px;
+    width: 1900px;
+}
+/* 结尾部分 */
+.jieshu{
+    padding-top: 26px;
+    width: 1900px;
+}
+.jieshu .container .logo{
+    height: 170px;
+    width: 129px;
+    float: left;
+    margin-left: 56px;
+}
+.jieshu .container .footer_tel{
+    float: left;
+    margin-top: 32px;
+}
+.jieshu .container .footer_tel ul{
+    float: left;
+    margin-left: 100px;
+}
+.jieshu .container .footer_tel ul li{
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.jieshu .container .weixin{
+    float: right;
+    margin-right: 78px;
+
+}
+
+
+.jieshu .container .row .col-lg-4 {
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.jieshu .container .row li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+
