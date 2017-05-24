@@ -1,25 +1,23 @@
 @charset "UTF-8";
 
 .lunbo{
-   height: 620px;
-   width:1920px;
-  overflow:hidden;
+    height: 620px;
     margin-right: auto;
     margin-left: auto;
 }
 .lunbo ul{
     list-style: none;
-  width:1920px;
+
 }
 .lunbo ul li{
     list-style: none;
     height:624px;
-    width:1920px;
+
     float:left;
 }
 .lunbo ul li img{
     height:624px;
-    width:1920px;
+
 
 }
 /*
@@ -29,7 +27,6 @@
 
 
 #jsxw {
-    width: 1920px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -92,7 +89,6 @@
 
 #tese {
     height: 700px;
-    width: 1920px;
     border: 0;
     margin-right: auto;
     margin-left: auto;
@@ -109,7 +105,6 @@
 
 .xingceng{
     height: 770px;
-    width: 1920px;
     background-color: #5bb4ee;
     margin-right: auto;
     margin-left: auto;
@@ -162,19 +157,17 @@
 
 /* 风景透视窗 */
 .toushi-eyes{
-    width: 1920px;
     height: 400px;
     margin: 0px auto;
     position: relative;
     margin-right: auto;
     margin-left: auto;
+    overflow:hidden;
 }
 
 /* 特色景点 */
 .teshe{
-
     height: 690px;
-    width: 1920px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -223,7 +216,6 @@
 
 /* 特色美食 */
 .meishi{
-    width: 1920px;
     height: 1050px;
     margin-right: auto;
     margin-left: auto;
@@ -260,7 +252,6 @@
 /* 山 */
 .shan{
     height: 660px;
-    width: 1920px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -268,7 +259,6 @@
 /* 旅游评价 */
 
 .pingjia{
-    width: 1920px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -324,5 +314,7 @@
     margin-right: auto;
     margin-left: auto;
     height: 550px;
-    width: 1920px;
+    text-align: center;
+}
+.backimg img{
 }
