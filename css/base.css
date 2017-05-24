@@ -144,7 +144,7 @@ s, i, em {
 #header  .container  .tab-content div{
     padding-top: 30px;
     position: absolute;
-    top: 120px;
+    top: 100px;
     width: 1026px;
     background-color:  pink;
     opacity: 0.6;
