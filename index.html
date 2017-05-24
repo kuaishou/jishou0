@@ -98,7 +98,7 @@
  <!-- 广告轮播 -->
   <section class="lunbo" id="lunbo">
       <ul>
-        <li><img src="img/raw_1493013183_02.png" alt=""></li>
+        <li id="lunbg"><img src="img/raw_1493013183_02.png" alt=""></li>
       </ul>
   </section>
   <!-- /广告轮播 -->
@@ -155,7 +155,7 @@
 <!--透视窗风景-->
 
 <section class="toushi">
-    <div style="width:1920px;  margin-right: auto; margin-left: auto;background-attachment: fixed; background-image: url(img/raw_1493013183_41.png); background-size: cover; background-position: 0% 0%;    background-repeat: no-repeat;">
+    <div  style=" margin-right: auto; margin-left: auto;background-attachment: fixed; background-image: url(img/raw_1493013183_41.png); background-size: cover; background-position: 0% 0%;    background-repeat: no-repeat;">
         <div class="toushi-eyes"></div>
     </div>
 </section>
@@ -203,7 +203,7 @@
     </div>
 </section>
 <!--  /特色美食 -->
-<section  class="shan">
+<section  class="shan" id="san0">
     <img src="img/raw_1493013183_34.png" alt="">
 </section>
 <!-- 旅游评价 -->
@@ -248,7 +248,7 @@
 </section>
 <!-- /旅游评价 -->
 
-<section  class="backimg clearfix">
+<section id="san" class="backimg clearfix">
     <img src="img/raw_1493013183_38.png" alt="">
 </section>
 
@@ -309,6 +309,20 @@
         fun("nav","boox");
 
         /*轮播*/
+   function width(obj){
+     var w
+     if(!!(window.attachEvent && !window.opera))
+     {
+         w = document.documentElement.clientWidth;
+     }else{
+         w = window.innerWidth;
+     }
+     var bgImg = document.getElementById(obj).getElementsByTagName('img')[0];
+     bgImg.width = w;
+ }
+     width("san");
+     width("lunbg");
+     width("san0");
 
-    </script>
+ </script>
  </html>
