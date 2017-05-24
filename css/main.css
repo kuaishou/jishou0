@@ -2,22 +2,24 @@
 
 .lunbo{
    height: 620px;
-   width:100%;
+   width:1920px;
   overflow:hidden;
+    margin-right: auto;
+    margin-left: auto;
 }
 .lunbo ul{
     list-style: none;
-  width:100%;
+  width:1920px;
 }
 .lunbo ul li{
     list-style: none;
-  height:624px;
-  width:100%;
-  float:left;
+    height:624px;
+    width:1920px;
+    float:left;
 }
 .lunbo ul li img{
     height:624px;
-    width:100%;
+    width:1920px;
 
 }
 /*
@@ -27,7 +29,9 @@
 
 
 #jsxw {
-
+    width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
 }
 #jsxw> .container{
   border-bottom: 1px dashed #aecee1;
@@ -88,8 +92,10 @@
 
 #tese {
     height: 700px;
-    width: 1900px;
+    width: 1920px;
     border: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #tese > .container >div{
@@ -103,8 +109,10 @@
 
 .xingceng{
     height: 770px;
-    width: 1900px;
+    width: 1920px;
     background-color: #5bb4ee;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 .xingceng .container .xingceng_new{
@@ -154,16 +162,21 @@
 
 /* 风景透视窗 */
 .toushi-eyes{
-    width: 1900px;
+    width: 1920px;
     height: 400px;
     margin: 0px auto;
     position: relative;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* 特色景点 */
 .teshe{
+
     height: 690px;
-    width: 1900px;
+    width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .teshe >.container > .teshe_new{
@@ -210,8 +223,10 @@
 
 /* 特色美食 */
 .meishi{
-    width: 1900px;
+    width: 1920px;
     height: 1050px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .meishi >.meishi_new{
     text-align: center;
@@ -243,16 +258,19 @@
     padding-left: 30px;
 }
 /* 山 */
-.shan img{
+.shan{
     height: 660px;
-    width: 1900px;
+    width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* 旅游评价 */
 
 .pingjia{
-    width: 1900px;
-    height: 900px;
+    width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .pingjia .container .pingjia_new{
@@ -302,51 +320,9 @@
 
 }
 
-
-
-.backimg img{
+.backimg{
+    margin-right: auto;
+    margin-left: auto;
     height: 550px;
-    width: 1900px;
+    width: 1920px;
 }
-/* 结尾部分 */
-.jieshu{
-    padding-top: 26px;
-    width: 1900px;
-}
-.jieshu .container .logo{
-    height: 170px;
-    width: 129px;
-    float: left;
-    margin-left: 56px;
-}
-.jieshu .container .footer_tel{
-    float: left;
-    margin-top: 32px;
-}
-.jieshu .container .footer_tel ul{
-    float: left;
-    margin-left: 100px;
-}
-.jieshu .container .footer_tel ul li{
-    height: 28px;
-    line-height: 28px;
-    font-size: 14px;
-}
-.jieshu .container .weixin{
-    float: right;
-    margin-right: 78px;
-
-}
-
-
-.jieshu .container .row .col-lg-4 {
-
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-.jieshu .container .row li{
-    list-style: none;
-    margin-top: 10px;
-}
-
-
