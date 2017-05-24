@@ -5,6 +5,8 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
     padding: 0;
 }
 body {
+    overflow:Scroll;
+    overflow-x:hidden;
     font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
 }
 
@@ -84,8 +86,9 @@ s, i, em {
 }
 
 #header{
-    width: 100%;
     height: 100px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 #header   .container{
@@ -93,22 +96,22 @@ s, i, em {
 }
 #header  .logo{
     position: absolute;
-    top: 30px;
-    left: 140px;
+    top: 0px;
+    left: 0px;
     z-index: 1000;
 }
-#header >  .container > .nav-tabs {
+#header   .container  .nav-tabs {
     height: 60px;
-    width: 100%;
     float: left;
-    margin-left: 340px;
-    margin-top: 60px;
+    margin-left: 200px;
+    margin-top: 40px;
+
 }
-#header >  .container > .nav-tabs span{
+#header   .container  .nav-tabs span{
     display:block;
     float: left;
     height: 60px;
-    width: 100px;
+    width: 120px;
     margin-bottom: 0;
     margin-left: 10px;
     line-height: 60px;
@@ -117,7 +120,7 @@ s, i, em {
     text-align: center;
     cursor: pointer;
 }
-#header >  .container .langs{
+#header   .container .langs{
     float: left;
     height: 60px;
     width: 100px;
@@ -134,11 +137,11 @@ s, i, em {
 
 
 
-#header >  .container > .nav-tabs .bom{
+#header   .container .nav-tabs .bom{
     border-bottom: 3px solid black;
 }
 
-#header >  .container > .tab-content div{
+#header  .container  .tab-content div{
     padding-top: 30px;
     position: absolute;
     top: 120px;
@@ -150,14 +153,14 @@ s, i, em {
     display: none;
 
 }
-#header >  .container > .tab-content .dis-black{
+#header   .container  .tab-content .dis-black{
     display: block;
 }
-#header >  .container > .tab-content div ul {
+#header   .container  .tab-content div ul {
     padding-left: 100px;
     float: left;
 }
-#header >  .container > .tab-content div ul li {
+#header   .container .tab-content div ul li {
     list-style: none;
     padding-top: 8px;
     font-size: 20px;
@@ -170,6 +173,8 @@ s, i, em {
 .jieshu{
     height: 260px;
     padding-top: 26px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .jieshu .container .logo{
     height: 170px;
@@ -207,3 +212,5 @@ s, i, em {
     margin-top: 10px;
 
 }
+
+
